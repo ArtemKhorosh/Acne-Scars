@@ -1,0 +1,1092 @@
+@media all and (max-width: 1449px) {
+
+    /*     Header     */
+
+    .header-row {
+        padding: 0 20px;
+    }
+
+    /*     Main Section     */
+
+    .main-media img {
+        left: 2%;
+    }
+
+    /*     Section Partners     */
+
+    .partners-decoration {
+        left: 70%;
+    }
+
+    /*     Section Clients     */
+
+    .clients-video img {
+        width: 360px;
+    }
+
+    /*     Section Scars     */
+
+    .scars-content p {
+        font-size: 1.2rem;
+    }
+
+    /*     Section Process     */
+
+    /*     Section Owner     */
+
+    .img-owner {
+        width: 550px;
+    }
+
+    .owner-about {
+        position: relative;
+        z-index: 10;
+    }
+
+    .owner-about-self {
+        left: 60%;
+    }
+
+    .section-owner .arrow-right {
+        left: 85%;
+    }
+
+    /*     Footer     */
+
+    .footer-social-media {
+        max-width: 220px;
+    }
+
+    .footer-content {
+        max-width: 500px;
+    }
+
+    .footer-feedback {
+        max-width: 270px;
+    }
+
+    .footer-feedback .btn-primary {
+        padding: 9px 40px;
+    }
+
+    .footer-feedback .btn-feedback {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 1199px) {
+
+    main {
+        padding-top: 110px;
+    }
+
+    /*     Header     */
+
+    /*     Main Section     */
+
+    .main-content {
+        text-align: right;
+        margin-bottom: 150px;
+    }
+
+    .main-title {
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .main-subtitle {
+        text-align: center;
+    }
+
+    .main-content .btn-secondary {
+        margin-bottom: 100px;
+    }
+
+    .benefits-wrapper {
+        margin-bottom: 120px;
+    }
+
+    .main-description {
+        max-width: 465px;
+        text-align: center;
+    }
+
+    .main-media img {
+        bottom: -140px;
+        left: 0;
+        width: 600px;
+    }
+
+    /*     Section Partners     */
+
+    .partners-decoration {
+        bottom: 290px;
+    }
+
+    .partners-title {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .partners-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: 180px;
+    }
+
+    .parners-slide {
+        width: 190px;
+        height: 80px;
+    }
+
+    /*     Section Clients     */
+
+    .clients-title {
+        font-size: 3.5rem;
+    }
+
+    .section-clients .decoration::before {
+        top: 180px;
+    }
+
+    .clients-subtitle {
+        font-size: 2.3rem;
+    }
+
+    .clients-video img {
+        width: 300px;
+    }
+
+    /*     Section Free Consultation     */
+
+    .free-consultation-title {
+        font-size: 3rem;
+    }
+
+    .free-consultation-subtitle {
+        font-size: 2rem;
+    }
+
+    .form-consultation {
+        padding: 0 100px;
+    }
+
+    .form-consultation input {
+        margin-bottom: 10px;
+    }
+
+    .form-consultation button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /*     Section Scars     */
+
+    .scars-title {
+        font-size: 3rem;
+    }
+
+    .section-scars .decoration::before {
+        top: 130px;
+    }
+
+    .scars-subtitle {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .scars-media {
+        margin-bottom: 40px;
+    }
+
+    /*     Section Process     */
+
+    .process-wrapper {
+        gap: 80px;
+    }
+
+    .arrow-right {
+        top: 550px;
+    }
+
+    /*     Section laboratories     */
+
+    .laboratories-media {
+        text-align: center;
+    }
+
+    .laboratories-media img {
+        position: unset;
+    }
+
+    .laboratories-md-order {
+        order: 2;
+    }
+
+    .laboratories-md-order-2 {
+        order: 1;
+    }
+
+    /*     Section laboratories     */
+
+    .section-faq {
+        padding: 50px 0 100px 0;
+        border-bottom: 12px solid #FEFE00;
+    }
+
+    .faq-title {
+        font-size: 4rem;
+        margin-bottom: 40px;
+    }
+
+    /*     Section Our Patients     */
+
+    .our-patients-title {
+        font-size: 3.5rem;
+        margin-bottom: 40px;
+    }
+
+    .patients-img-wraapper {
+        top: 376px;
+    }
+
+    /*     Section Call To Action     */
+
+    .call-to-action-title {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .call-to-action-subtitle {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+
+    /*     Section Make Appointment     */
+
+    .make-appointment-title {
+        margin-bottom: 40px;
+    }
+
+    .section-make-appointment .decoration::before {
+        top: 110px;
+    }
+
+    /*     Section Owner     */
+
+    .section-owner {
+        padding: 60px 0 640px 0;
+    }
+
+    .owner-experience-wrap {
+        max-width: 100%;
+    }
+
+    .owner-title {
+        font-size: 4.5rem;
+        margin-bottom: 30px;
+    }
+
+    .owner-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .owner-experience-wrap .decoration::before {
+        top: 150px;
+        left: 50%;
+    }
+
+    .owner-about {
+        margin-bottom: 0;
+    }
+
+    .owner-education-wrap {
+        max-width: 100%;
+    }
+
+    .owner-education-wrap .decoration::before {
+        top: 100px;
+    }
+
+    .owner-education-wrap .owner-about {
+        margin-bottom: 30px;
+    }
+
+    .owner-about-self {
+        position: unset;
+        width: 100%;
+        border-radius: 80px;
+        padding: 12px 400px;
+    }
+
+    .img-owner {
+        bottom: 0;
+    }
+
+    .img-owner-social {
+        top: 1100px;
+    }
+
+    .owner-social-wrap {
+        top: 1144px;
+    }
+
+    .section-owner .arrow-right {
+        display: none;
+    }
+
+    /*     Footer     */
+
+    .footer-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-social-media {
+        order: 1;
+    }
+
+    .footer-content {
+        order: 3;
+        max-width: 100%;
+        padding-top: 50px;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .footer-content p:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .footer-content a {
+        margin-bottom: 30px;
+    }
+
+    .footer-feedback {
+        order: 2;
+    }
+
+}
+
+@media all and (max-width: 991px) {
+
+    /*     Header     */
+
+    .header-order a:not(:last-child) {
+        display: none;
+    }
+
+    /*     Main Section     */
+
+    .main-description {
+        max-width: 330px;
+    }
+
+    .main-media img {
+        width: 500px;
+        bottom: -50px;
+        left: -2%;
+    }
+
+    /*     Section Partners     */
+
+    .partners-decoration {
+        bottom: 320px;
+    }
+
+    .parners-slide {
+        width: 140px;
+        height: 70px;
+    }
+
+    /*     Section Clients     */
+
+    .clients-video img {
+        width: 560px;
+    }
+
+    /*     Slider     */
+
+    .dot {
+        display: block;
+    }
+
+    .arrow {
+        display: block;
+    }
+
+    /*     Section Free Consultation     */
+
+    .form-consultation {
+        padding: 0 50px;
+    }
+
+    /*     Section Process     */
+
+    .process-wrapper {
+        gap: 120px;
+    }
+
+    .process-content p {
+        max-width: 500px;
+    }
+
+    .process-media {
+        margin-left: 50px;
+    }
+
+    .process-media img {
+        width: 200px;
+    }
+
+    .process-card-middle .process-content {
+        margin-left: 50px;
+    }
+
+    .arrow-left {
+        top: 180px;
+    }
+
+    .arrow-right {
+        top: 500px;
+    }
+
+    /*     Section Call To Action     */
+
+    .call-to-action-subtitle {
+        font-size: 3rem;
+    }
+
+    /*     Section Owner     */
+
+    .owner-about-self {
+        padding: 12px 290px;
+    }
+}
+
+@media all and (max-width: 767px) {
+
+    /*     Header     */
+
+    .header-order .btn-primary {
+        font-size: 1.2rem;
+    }
+
+    .btn-primary svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*     Main Section     */
+
+    .main-content {
+        margin-bottom: 80px;
+    }
+
+    .benefits-wrapper {
+        margin-bottom: 80px;
+    }
+
+    .main-content .btn-secondary {
+        padding: 10px 16px;
+        margin-bottom: 80px;
+    }
+
+    .btn-secondary {
+        font-size: 1.5rem;
+    }
+
+    .btn-secondary svg {
+        width: 24px;
+        height: 28px;
+    }
+
+    .main-description {
+        max-width: 230px;
+        text-align: right;
+    }
+
+    .main-media img {
+        bottom: -130px;
+        left: -20%;
+    }
+
+    /*     Section Partners     */
+
+    .partners-wrapper {
+        padding: 0 20px;
+    }
+
+    .parners-slide {
+        width: 120px;
+        height: 60px;
+    }
+
+    /*     Section Clients     */
+
+    .section-clients .decoration::before {
+        top: 240px;
+        width: 90px;
+    }
+
+    .clients-video img {
+        width: 420px;
+    }
+
+    /*     Slider     */
+
+    .arrow {
+        top: 62%;
+    }
+
+    .arrow--right {
+        right: 6%;
+    }
+
+    .arrow--left {
+        left: 6%;
+    }
+
+    /*     Section Free Consultation     */
+
+    .free-consultation-subtitle {
+        font-size: 1.4rem;
+        max-width: 300px;
+    }
+
+    .free-consultation-description {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+
+    /*     Section Scars     */
+
+    .section-scars {
+        padding: 50px 0 50px 0;
+    }
+
+    .scars-title {
+        margin-bottom: 40px;
+    }
+
+    .section-scars .decoration::before {
+        top: 110px;
+        width: 90px;
+    }
+
+    /*     Section Process     */
+
+    .section-process {
+        padding: 50px 0;
+    }
+
+    .section-process .decoration::before {
+        top: 180px;
+        width: 90px;
+    }
+
+    .process-content p {
+        line-height: 1;
+        max-width: 300px;
+    }
+
+    .arrow-left {
+        width: 22px;
+    }
+
+    .arrow-right {
+        width: 30px;
+    }
+
+    /*     Section laboratories     */
+
+    .section-laboratories {
+        padding: 50px 0 0 0;
+    }
+
+    .laboratories-title {
+        font-size: 3.5rem;
+    }
+
+    .section-laboratories .decoration::before {
+        top: 80px;
+        width: 90px;
+    }
+
+    .laboratories-subtitle {
+        margin-bottom: 30px;
+    }
+
+    .laboratories-about p {
+        line-height: 1.5;
+    }
+
+    /*     Section FAQ     */
+
+    .section-faq {
+        padding: 50px 0;
+    }
+
+    .faq-title {
+        margin-bottom: 30px;
+    }
+
+    .faq-item-title {
+        padding: 14px 0;
+    }
+
+    .faq-item-title svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    /*     Section Our Patients     */
+
+    .section-our-patients {
+        padding-top: 30px;
+    }
+
+    .our-patients-title {
+        margin-bottom: 30px;
+    }
+
+    .our-patients-title small {
+        font-weight: 400;
+        font-size: 2.5rem;
+    }
+
+    .our-patients-social {
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+
+    .our-patients-items img {
+        height: 61px;
+        margin-bottom: 10px;
+    }
+
+    .our-patients-items p {
+        font-size: 1.3rem;
+    }
+
+    /*     Section Call To Action     */
+
+    .section-call-to-action {
+        padding: 30px 0;
+    }
+
+    .call-to-action-title {
+        font-size: 2.2rem;
+    }
+
+    .call-to-action-subtitle {
+        font-size: 2.6rem;
+    }
+
+    /*     Section Make Appointment     */
+
+    .make-appointment-title {
+        margin-bottom: 60px;
+    }
+
+    .section-make-appointment .decoration::before {
+        width: 90px;
+    }
+
+    .make-appointment-subtitle {
+        max-width: 470px;
+        margin-bottom: 30px;
+    }
+
+    .make-appointment-description {
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+
+    /*     Section Owner     */
+
+    .section-owner {
+        padding: 50px 0 500px 0;
+    }
+
+    .owner-subtitle {
+        margin-bottom: 50px;
+    }
+
+    .owner-experience-wrap .decoration::before {
+        height: 8px;
+    }
+
+    .owner-education-wrap .decoration::before {
+        height: 8px;
+    }
+
+    .owner-about-self {
+        position: absolute;
+        top: 380px;
+        left: 2%;
+        border-radius: 50%;
+        width: 155px;
+        padding: 14px;
+    }
+
+    .img-owner {
+        width: 450px;
+    }
+
+    .img-owner-social {
+        top: 920px;
+        width: 550px;
+    }
+
+    .owner-social-wrap {
+        top: 944px;
+        gap: 60px;
+    }
+
+    .owner-social-items img {
+        width: 44px;
+    }
+
+    .owner-social-items-content {
+        font-size: 1rem;
+    }
+
+    .owner-social-items-content mark {
+        font-size: 2.5rem;
+    }
+
+    /*     Footer     */
+
+    .footer {
+        padding: 150px 0 80px 0;
+    }
+
+    .footer-social-media p {
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+    }
+
+    .footer-social-media .decoration::before {
+        height: 8px;
+    }
+
+    .footer-content {
+        font-size: 1rem;
+    }
+
+    .footer-feedback {
+        max-width: 250px;
+    }
+
+    .footer-feedback .btn-primary {
+        font-size: 1.3rem;
+    }
+
+    .footer-feedback p {
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width: 575px) {
+
+    /*     Header     */
+
+    .header {
+        padding: 10px;
+    }
+
+    .header-logo {
+        width: 130px;
+    }
+
+    .header-order .btn-primary {
+        padding: 6px 12px;
+    }
+
+    /*     Main Section     */
+
+    .benefits-wrapper {
+        margin-bottom: 40px;
+    }
+
+    .main-content .btn-secondary {
+        padding: 8px 12px;
+    }
+
+    .btn-secondary {
+        font-size: 1.1rem;
+
+    }
+
+    .btn-secondary svg {
+        width: 20px;
+        height: 24px;
+    }
+
+    .main-description {
+        font-size: 0.7rem;
+        max-width: 160px;
+    }
+
+    .main-media img {
+        bottom: -50px;
+    }
+
+    /*     Section Partners     */
+
+    .section-partners {
+        padding: 30px 0;
+    }
+
+    .partners-decoration {
+        bottom: 220px;
+        width: 60px;
+    }
+
+    .partners-title {
+        font-size: 2.25rem;
+        margin-bottom: 20px;
+    }
+
+    .partners-wrapper {
+        height: 130px;
+    }
+
+    .parners-slide {
+        width: 80px;
+        height: auto;
+    }
+
+    /*     Section Clients     */
+
+    .clients-title {
+        font-size: 3rem;
+    }
+
+    .section-clients .decoration::before {
+        top: 250px;
+        width: 68px;
+        height: 8px;
+    }
+
+    .clients-subtitle {
+        font-size: 1.7rem;
+    }
+
+    .clients-video img {
+        width: 300px;
+    }
+
+    /*     Slider     */
+
+    .arrow {
+        top: 64%;
+    }
+
+    .arrow--right {
+        right: 0%;
+    }
+
+    .arrow--left {
+        left: 0%;
+    }
+
+    /*     Section Free Consultation     */
+
+    .form-consultation {
+        padding: 0 20px;
+    }
+
+    .free-consultation-description {
+        max-width: 270px;
+    }
+
+    .form-consultation .btn-secondary {
+        padding: 10px 20px;
+    }
+
+    /*     Section Scars     */
+
+    .scars-title {
+        font-size: 2.8rem;
+    }
+
+    .section-scars .decoration::before {
+        top: 150px;
+        width: 68px;
+        height: 8px;
+    }
+
+    .scars-media {
+        border: 4px solid #fff;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn-modal svg {
+        width: 70px;
+        height: 70px;
+    }
+
+    /*     Section Process     */
+
+    .process-title {
+        font-size: 3.2rem;
+    }
+
+    .section-process .decoration::before {
+        top: 210px;
+        width: 68px;
+        height: 8px;
+    }
+
+    .process-wrapper {
+        gap: 140px;
+    }
+
+    .process-content p {
+        font-size: 1.1rem;
+    }
+
+    .process-media {
+        margin-left: 14px;
+    }
+
+    .process-card-middle .process-content {
+        margin-left: 14px;
+    }
+
+    /*     Section laboratories     */
+
+    .laboratories-title {
+        margin-bottom: 40px;
+    }
+
+    .section-laboratories .decoration::before {
+        top: 120px;
+        width: 68px;
+        height: 8px;
+    }
+
+    .laboratories-about p {
+        line-height: 1.2;
+    }
+
+    /*     Section FAQ     */
+
+    .faq-title {
+        font-size: 3.5rem;
+    }
+
+    .faq-item-title {
+        font-size: 1.2rem;
+    }
+
+    .faq-item-content {
+        font-size: 1.15rem;
+    }
+
+    /*     Section Our Patients     */
+
+    .our-patients-title {
+        font-size: 3.2rem;
+    }
+
+    .our-patients-social {
+        gap: 20px;
+    }
+
+    .our-patients-items img {
+        height: 40px;
+    }
+
+    .our-patients-items p {
+        font-size: 1rem;
+    }
+
+    /*     Section Call To Action     */
+
+    .angle-down svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    /*     Section Make Appointment     */
+
+    .section-make-appointment .decoration::before {
+        top: 160px;
+        width: 68px;
+        height: 8px;
+    }
+
+    /*     Section Owner     */
+
+    .section-owner {
+        padding: 50px 0 350px 0;
+    }
+
+    .owner-title {
+        font-size: 3.5rem;
+    }
+
+    .owner-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .owner-experience-wrap .decoration::before {
+        top: 130px;
+        width: 68px;
+    }
+
+    .owner-about-self {
+        top: 340px;
+        font-size: 1rem;
+        padding: 16px;
+    }
+
+    .img-owner {
+        width: 300px;
+    }
+
+    .img-owner-social {
+        top: 860px;
+        width: 350px;
+    }
+
+    .owner-social-wrap {
+        top: 874px;
+        gap: 50px;
+    }
+
+    .owner-social-items img {
+        width: 30px;
+        margin-bottom: 6px;
+    }
+
+    .owner-social-items-content {
+        font-size: .8rem;
+    }
+
+    .owner-social-items-content mark {
+        font-size: 1.4rem;
+    }
+
+    /*     Footer     */
+
+    .footer-social-media {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 370px) {
+
+    /*     Header     */
+
+    .header-logo {
+        width: 100px;
+    }
+}
