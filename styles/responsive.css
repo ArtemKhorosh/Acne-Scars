@@ -24,6 +24,11 @@
         width: 360px;
     }
 
+
+    .scars-video-element iframe {
+        height: 55%;
+    }
+
     /*     Section Scars     */
 
     .scars-content p {
@@ -404,6 +409,10 @@
         width: 560px;
     }
 
+    .scars-video-element iframe {
+        width: 80%;
+    }
+
     /*     Slider     */
 
     .dot {
@@ -530,6 +539,10 @@
 
     .clients-video img {
         width: 420px;
+    }
+
+    .scars-video-element iframe {
+        height: 40%;
     }
 
     /*     Slider     */
@@ -875,6 +888,10 @@
 
     .clients-video img {
         width: 300px;
+    }
+
+    .scars-video-element iframe {
+        height: 30%;
     }
 
     /*     Slider     */
