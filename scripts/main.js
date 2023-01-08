@@ -1,27 +1,26 @@
 //YouTube Video
 
-// // Get the modal
-// const modalVideo = document.getElementById('modalVideo');
+// Get the modal
+const modalVideo = document.getElementById('modalVideo');
 
-// // Get the button that opens the modal
-// const modalVideoBtn = document.querySelectorAll('.btn-modal');
+// Get the button that opens the modal
+const modalVideoBtn = document.querySelectorAll('.btn-modal');
 
-// // When the user clicks the button, open the modal 
-// modalVideoBtn.forEach(function (e)
-//     e.addEventListener('click', function (event) {
-//     const btn = event.target;
-//     const video_id = -btn.dataset.video;
+// When the user clicks the button, open the modal 
+modalVideoBtn.forEach(function (e) {
+    e.addEventListener('click', function (event) {
+        // const btn = event.target;
+        const video_id = e.dataset.video;
 
-//     const iframe = document.createElement('iframe');
-//     iframe.src = 'https://www.youtube.com/embed/' + video_id;
-//     iframe.className = 'youtube';
-//     modalVideo.appendChild(iframe);
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube.com/embed/' + video_id;
+        iframe.className = 'youtube';
+        modalVideo.appendChild(iframe);
 
-//     modalVideo.style.display = "block";
-// });
-// );
-
-
+        modalVideo.style.display = "block";
+    });
+}
+);
 
 // When the user clicks on <button> (x) or anywhere outside of the modal, close the modal
 document.addEventListener('click', function (event) {
@@ -32,7 +31,6 @@ document.addEventListener('click', function (event) {
 
     }
 }, false);
-
 
 //Section FAQ
 
