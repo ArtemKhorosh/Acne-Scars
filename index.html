@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/responsive.css">
-    <!-- Slider CSS -->
+    <!-- Slider CDN CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.3/keen-slider.min.css">
 </head>
 
@@ -176,7 +176,7 @@
                 <p class="free-consultation-subtitle">לפגישת ייעוץ ואבחון חינם
                     חייגו עכשיו – <a href="tel+380779770907" class="link-phone" title="077 977 0907">077-977-0907</a>
                     או השאירו פרטים בטופס:</p>
-                <form action="" class="form-consultation">
+                <form action="/" class="form-consultation">
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-12">
                             <input type="text" placeholder="שם מלא:">
@@ -422,13 +422,25 @@
                     </div>
                 </div>
             </div>
-            <div class="patients-img-wraapper">
-                <img src="images/img-1.png" alt="img-1" width="322" height="443" loading="lazy">
-                <img src="images/img-2.png" alt="img-2" width="322" height="443" loading="lazy">
-                <img src="images/img-3.png" alt="img-3" width="322" height="442" loading="lazy">
-                <img src="images/img-4.png" alt="img-4" width="322" height="442" loading="lazy">
-                <img src="images/img-5.png" alt="img-5" width="322" height="443" loading="lazy">
-                <img src="images/img-6.png" alt="img-6" width="322" height="443" loading="lazy">
+            <div class="row no-gutters patients-img-wraapper">
+                <div class="col-xl-2">
+                    <img src="images/img-1.png" alt="img-1" width="322" height="443" loading="lazy">
+                </div>
+                <div class="col-xl-2">
+                    <img src="images/img-2.png" alt="img-2" width="322" height="443" loading="lazy">
+                </div>
+                <div class="col-xl-2">
+                    <img src="images/img-3.png" alt="img-3" width="322" height="442" loading="lazy">
+                </div>
+                <div class="col-xl-2">
+                    <img src="images/img-4.png" alt="img-4" width="322" height="442" loading="lazy">
+                </div>
+                <div class="col-xl-2">
+                    <img src="images/img-5.png" alt="img-5" width="322" height="443" loading="lazy">
+                </div>
+                <div class="col-xl-2">
+                    <img src="images/img-6.png" alt="img-6" width="322" height="443" loading="lazy">
+                </div>
             </div>
         </section>
         <!-- Section Call to Action -->
@@ -453,7 +465,7 @@
                     חייגו עכשיו <a href="tel+380779770907" class="link-phone" title="077 977 0907">077-977-0907</a>
                     או השאירו פרטים ונחזור אליכם בהקדם:</p>
 
-                <form action="" class="form-consultation">
+                <form action="/" class="form-consultation">
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-12">
                             <input type="text" placeholder="שם מלא:">
@@ -636,12 +648,10 @@
     </svg>
 
     <script src="scripts/main.js"></script>
-
+    <!-- Slider CDN JS -->
     <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.8.3/keen-slider.min.js"></script>
-
     <script>
-
-        //Slider    
+        //Slider
 
         function navigation(slider) {
             let wrapper, dots, arrowLeft, arrowRight;
@@ -759,7 +769,6 @@
             },
             [navigation]
         );
-
     </script>
 
 </body>
