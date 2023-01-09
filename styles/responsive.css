@@ -37,6 +37,12 @@
 
     /*     Section Process     */
 
+    /*     Section Our Patients     */
+
+    .patients-img-wraapper img {
+        height: 340px;
+    }
+
     /*     Section Owner     */
 
     .img-owner {
@@ -252,6 +258,10 @@
         margin-bottom: 40px;
     }
 
+    .patients-img-wraapper img {
+        height: 280px;
+    }
+
     /*     Section Call To Action     */
 
     .call-to-action-title {
@@ -457,6 +467,16 @@
 
     .arrow-right {
         top: 500px;
+    }
+
+    /*     Section Our Patients     */
+
+    .patients-img-wraapper div:nth-child(odd) {
+        display: none;
+    }
+
+    .patients-img-wraapper img {
+        height: 330px;
     }
 
     /*     Section Call To Action     */
@@ -679,6 +699,10 @@
 
     .our-patients-items p {
         font-size: 1.3rem;
+    }
+
+    .patients-img-wraapper img {
+        height: 290px;
     }
 
     /*     Section Call To Action     */
@@ -1020,6 +1044,10 @@
     .our-patients-items p {
         font-size: 1rem;
     }
+
+    .patients-img-wraapper img {
+        height: 210px;
+    } 
 
     /*     Section Call To Action     */
 

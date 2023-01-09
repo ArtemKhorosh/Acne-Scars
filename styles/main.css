@@ -759,8 +759,8 @@ main {
 }
 
 .patients-img-wraapper img {
-    width: auto;
-    height: 443px;
+    width: 100%;
+    height: 400px;
     transition: transform .3s ease-in-out;
 }
 
