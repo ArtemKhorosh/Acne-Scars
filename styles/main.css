@@ -472,10 +472,6 @@ main {
     width: 100%;
     height: 100%;
     background-color: rgba(232, 238, 245, 0.8);
-    -webkit-animation-name: fadeIn;
-    -webkit-animation-duration: .5s;
-    animation-name: fadeIn;
-    animation-duration: .5s;
 }
 
 .scars-video-element .close {
@@ -503,8 +499,6 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-animation-duration: .5s;
-    animation-duration: .5s;
 }
 
 /*     Section Process     */
