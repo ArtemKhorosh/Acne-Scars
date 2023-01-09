@@ -8,15 +8,12 @@ const modalVideoBtn = document.querySelectorAll('.btn-modal');
 
 // When the user clicks the button, open the modal 
 modalVideoBtn.forEach(function (e) {
-    e.addEventListener('click', function (event) {
-        // const btn = event.target;
-        const video_id = e.dataset.video;
+    e.addEventListener('click', function () {
 
         const iframe = document.createElement('iframe');
-        iframe.src = 'https://www.youtube.com/embed/' + video_id;
+        iframe.src = 'https://www.youtube.com/embed/' + e.dataset.video;
         iframe.className = 'youtube';
         modalVideo.appendChild(iframe);
-
         modalVideo.style.display = "block";
     });
 }
@@ -26,9 +23,7 @@ modalVideoBtn.forEach(function (e) {
 document.addEventListener('click', function (event) {
     if (event.target.classList.contains('close-modal')) {
         modalVideo.style.display = "none";
-        // modalVideo.lastElementChild.remove();
         modalVideo.removeChild(modalVideo.lastElementChild);
-
     }
 }, false);
 
